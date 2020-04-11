@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b42a47-13e2-4fe0-bc1b-2e27422f537c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/SalaryCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/SalaryCalculatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/util/JsonTypeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/JsonTypeAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/SalaryCalculatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/SalaryCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomFileParserImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomFileParserImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomFileReaderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/SalaryCalculatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/CustomFileParserImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/CustomFileReaderImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/SalaryCalculatorImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomFileParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/CustomFileParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/util/JsonTypeAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/util/JsonTypeAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/CustomFileParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/CustomFileParserTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="329">
+              <caret line="29" column="25" selection-start-line="21" selection-start-column="74" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -107,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="389">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,12 +116,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="809">
+              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2340#2341#0" expanded="true" />
-                <element signature="e#2392#2393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,12 +128,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/SalaryCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="38" column="99" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
+            <state relative-caret-position="434">
+              <caret line="41" column="99" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,18 +169,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/SalaryCalculatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/demo/SalaryCalculatorImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/MainService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/model/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/util/JsonTypeAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="863" />
@@ -362,6 +346,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomFileReaderTest.testIfMethodReadFileReturnsCorrectNumberOfLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.CustomFileReaderTest" />
+      <option name="METHOD_NAME" value="testIfMethodReadFileReturnsCorrectNumberOfLines" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalaryCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.example.demo" />
       <extension name="coverage">
@@ -377,29 +377,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryCalculatorTest.testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.example.demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.SalaryCalculatorTest" />
-      <option name="METHOD_NAME" value="testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SalaryCalculatorTest" />
-        <item itemvalue="JUnit.CustomFileReaderTest" />
         <item itemvalue="JUnit.CustomFileParserTest" />
-        <item itemvalue="JUnit.SalaryCalculatorTest.testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries" />
+        <item itemvalue="JUnit.CustomFileReaderTest" />
+        <item itemvalue="JUnit.CustomFileReaderTest.testIfMethodReadFileReturnsCorrectNumberOfLines" />
       </list>
     </recent_temporary>
   </component>
@@ -414,50 +398,52 @@
       <option name="presentableId" value="Default" />
       <updated>1586522104310</updated>
       <workItem from="1586522107827" duration="22321000" />
-      <workItem from="1586596751686" duration="3261000" />
+      <workItem from="1586596751686" duration="3631000" />
+      <workItem from="1586629950571" duration="344000" />
+      <workItem from="1586630305980" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomFileReaderImplTest - 2020.04.10 at 22h 37m 07s.xml">
-      <configuration name="CustomFileReaderImplTest" configurationId="JUnit" />
+    <history-entry file="CustomFileReaderTest - 2020.04.11 at 20h 40m 04s.xml">
+      <configuration name="CustomFileReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomFileParserImplTest - 2020.04.10 at 22h 37m 11s.xml">
-      <configuration name="CustomFileParserImplTest" configurationId="JUnit" />
+    <history-entry file="SalaryCalculatorTest - 2020.04.11 at 20h 40m 08s.xml">
+      <configuration name="SalaryCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomFileParserImplTest - 2020.04.11 at 11h 24m 00s.xml">
-      <configuration name="CustomFileParserImplTest" configurationId="JUnit" />
+    <history-entry file="SalaryCalculatorTest - 2020.04.11 at 20h 43m 03s.xml">
+      <configuration name="SalaryCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalaryCalculatorImplTest_testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries - 2020.04.11 at 11h 55m 30s.xml">
-      <configuration name="SalaryCalculatorImplTest.testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries" configurationId="JUnit" />
+    <history-entry file="SalaryCalculatorTest - 2020.04.11 at 20h 43m 08s.xml">
+      <configuration name="SalaryCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalaryCalculatorImplTest_testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries - 2020.04.11 at 11h 56m 11s.xml">
-      <configuration name="SalaryCalculatorImplTest.testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries" configurationId="JUnit" />
+    <history-entry file="CustomFileReaderTest_testIfMethodReadFileReturnsCorrectNumberOfLines - 2020.04.11 at 20h 44m 48s.xml">
+      <configuration name="CustomFileReaderTest.testIfMethodReadFileReturnsCorrectNumberOfLines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalaryCalculatorTest_testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries - 2020.04.11 at 12h 08m 09s.xml">
-      <configuration name="SalaryCalculatorTest.testIfCalculateSalariesForSpecifiedJobReturnCorrectComputedSalaries" configurationId="JUnit" />
+    <history-entry file="CustomFileReaderTest_testIfMethodReadFileReturnsCorrectNumberOfLines - 2020.04.11 at 20h 45m 28s.xml">
+      <configuration name="CustomFileReaderTest.testIfMethodReadFileReturnsCorrectNumberOfLines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomFileParserTest - 2020.04.11 at 12h 10m 19s.xml">
+    <history-entry file="CustomFileReaderTest - 2020.04.11 at 20h 45m 33s.xml">
+      <configuration name="CustomFileReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomFileReaderTest - 2020.04.11 at 20h 46m 08s.xml">
+      <configuration name="CustomFileReaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomFileParserTest - 2020.04.11 at 20h 46m 13s.xml">
       <configuration name="CustomFileParserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomFileReaderTest - 2020.04.11 at 12h 10m 22s.xml">
-      <configuration name="CustomFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomFileReaderTest - 2020.04.11 at 12h 10m 31s.xml">
-      <configuration name="CustomFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalaryCalculatorTest - 2020.04.11 at 12h 10m 38s.xml">
+    <history-entry file="SalaryCalculatorTest - 2020.04.11 at 20h 46m 17s.xml">
       <configuration name="SalaryCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25582000" />
+    <option name="totallyTimeSpent" value="26794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18705036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18705036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -466,7 +452,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32829374" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34341252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,18 +509,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/Main.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/dronn$Main.ic" NAME="Main Coverage Results" MODIFIED="1586537178368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -595,6 +569,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/interfaces/CustomFileParser.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CsvFileParserImplTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CsvFileReaderImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/MainService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/employees.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -605,63 +587,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/MainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/SalaryCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="38" column="99" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/CustomFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="809">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,10 +624,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/CustomFileParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="25" selection-start-line="21" selection-start-column="74" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/demo/SalaryCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="41" column="99" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

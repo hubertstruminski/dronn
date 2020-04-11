@@ -62,7 +62,7 @@ public class CustomFileParser {
         return employees;
     }
 
-    private String escapeSigns(String word) {
+    public String escapeSigns(String word) {
         return word.replace("\"", "").trim();
     }
 }

@@ -37,4 +37,18 @@ public class CustomFileParserTest {
     public void testIfMethodParseCsvToEmployeeThrowsNullPointerExceptionWhenPathIsNull() {
         assertThrows(NullPointerException.class, () -> fileParser.parseCsvToEmployee(null));
     }
+
+    @Test
+    public void testIfMethodEscapeSignsReturnCorrectString() {
+        String actual = fileParser.escapeSigns("    \"Hubert");
+        String expected = "Hubert";
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testIfMethodEscapeSignsThrowNullPointerExceptionWhenStringPassedIsNull() {
+        assertThrows(NullPointerException.class, () -> fileParser.escapeSigns(null));
+
+    }
 }
