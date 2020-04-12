@@ -40,9 +40,8 @@ public class Main {
         Map<String, Optional<BigDecimal>> jsonSalariesMap = main.salaryCalculator.calculateSalariesForSpecifiedJob(employees);
 
         System.out.println("Job salaries - JSON file");
-        for(Map.Entry<String, Optional<BigDecimal>> entry: jsonSalariesMap.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue().get() + " zł");
-        }
+        jsonSalariesMap.entrySet()
+                .stream().forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue().get() + " zł"));
     }
 
     private static void showCsvSalaryDetails(Main main) throws IOException {
@@ -50,8 +49,7 @@ public class Main {
         Map<String, Optional<BigDecimal>> csvSalariesMap = main.salaryCalculator.calculateSalariesForSpecifiedJob(employeeList);
 
         System.out.println("Job salaries - CSV file");
-        for (Map.Entry<String, Optional<BigDecimal>> entry : csvSalariesMap.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue().get() + " zł");
-        }
+        csvSalariesMap.entrySet().stream()
+                .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue().get() + " zł"));
     }
 }
